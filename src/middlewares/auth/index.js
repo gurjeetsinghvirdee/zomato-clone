@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 
 exports.isAuthentocated = (req, res, next) => {
   try {
-    const decoded = jwt.verify(req.headers.token, "SECRETTTTTT");
+    const decoded = jwt.verify(req.headers.token, "Secret");
 
     if (!decoded)
       return res.status(403).send({
