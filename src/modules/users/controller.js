@@ -14,11 +14,11 @@ exports.signup = async (req, res) => {
         message: "User already exist, please try login",
       });
 
-    // Hash Password
+    // hash password
 
     req.body.password = await bcrypt.hash(req.body.password, 10);
 
-    // Save to mongoDB
+    // save to DB
 
     const newUser = await User.create(req.body);
 
@@ -58,7 +58,7 @@ exports.login = async (req, res) => {
 
     delete user.password;
 
-    const token = jwt.sign({ ...user }, "Secret key");
+    const token = jwt.sign({ ...user }, "SECRETTTTTT");
 
     user.token = token;
 
