@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "Fira Code iScript, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code iScript, Fira Code, Consolas, 'Courier New', monospace",
     "html.format.indentHandlebars": true,
     "html.suggest.html5": true,
     "editor.suggest.preview": true,
