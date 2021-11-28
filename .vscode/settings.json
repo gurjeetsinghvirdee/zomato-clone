@@ -9,4 +9,5 @@
     "javascript.suggest.alwaysAllWords": true,
     "javascript.suggest.useCodeSnippetsOnMethodSuggest": true,
     "editor.tabSize": 4,
+    "debug.javascript.autoExpandGetters": true,
 }
