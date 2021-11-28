@@ -5,7 +5,8 @@
     "html.suggest.html5": true,
     "editor.suggest.preview": true,
     "editor.suggest.shareSuggestSelections": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
     "javascript.suggest.alwaysAllWords": true,
     "javascript.suggest.useCodeSnippetsOnMethodSuggest": true,
-    "editor.tabSize": 5,
+    "editor.tabSize": 4,
 }
