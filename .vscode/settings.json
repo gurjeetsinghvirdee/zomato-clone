@@ -2052,7 +2052,7 @@
     "javascript.suggest.autoImports": true,
   
     // Complete functions with their parameter signature.
-    "javascript.suggest.completeFunctionCalls": false,
+    "javascript.suggest.completeFunctionCalls": true,
   
     // Enable/disable suggestion to complete JSDoc comments.
     "javascript.suggest.completeJSDocs": true,
