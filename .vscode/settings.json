@@ -10,7 +10,7 @@
     "editor.fontSize": 14,
   
     // Controls the font family.
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code iScript ,Consolas, 'Courier New', monospace",
   
     // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
     "editor.tabSize": 4,
